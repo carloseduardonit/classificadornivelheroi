@@ -21,13 +21,13 @@ Instruções para entrega
 Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
 
 > Se XP for menor do que **1.000**  então o nivel  será **Ferro**,
-Senão XP for entre **1.001 e 2.000** então o nivel  será **Bronze**,
-Senão XP for entre **2.001 e 5.000** então o nivel  será **Prata**,
-Senão XP for entre **5.001 e 7.000** então o nivel  será **Ouro**,
-Senão XP for entre **7.001 e 8.000** então o nivel  será **Platina**
-Senão XP for entre **8.001 e 9.000** então o nivel  será **Ascendente**
-Senão XP for entre **9.001 e 10.000** então o nivel  será **Imortal**
-Senão XP for maior ou igual a **10.001** então o nivel  será **Radiante**
+> Senão XP for entre **1.001 e 2.000** então o nivel  será **Bronze**,
+> Senão XP for entre **2.001 e 5.000** então o nivel  será **Prata**,
+> enão XP for entre **5.001 e 7.000** então o nivel  será **Ouro**,
+> Senão XP for entre **7.001 e 8.000** então o nivel  será **Platina**
+> Senão XP for entre **8.001 e 9.000** então o nivel  será **Ascendente**
+> Senão XP for entre **9.001 e 10.000** então o nivel  será **Imortal**
+> Senão XP for maior ou igual a **10.001** então o nivel  será **Radiante**
 
 ## Saída
 
