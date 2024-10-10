@@ -23,6 +23,10 @@ class Heroi {
         }
     }
 
+    /**
+     * Entrega do Desafio 1
+     * @param {} classificacoes 
+     */
     classificarHeroi(classificacoes) {
         for (const classificacao of classificacoes) {
             let inicio = classificacao.inicio;
