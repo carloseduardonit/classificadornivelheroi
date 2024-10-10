@@ -1,25 +1,28 @@
 class Heroi {
-
-
-
     constructor() {
         this.nome = "";
         this.XP = 0;
         this.nivel = "n/a";
         this.saldoVitorias = 0;
-        this.nivelVitoria ="";
+        this.nivelVitoria = "";
+        this.idade = 0;
+        this.tipoGuerreiro = "";
+        this.ataque = "";
     }
 
-    classificar(herois, classificacoes, vitorias) {
+    classificar(herois, classificacoes, vitorias, tiposAtaques) {
         for (const heroi of herois) {
             this.nome = heroi.nome;
             this.XP = heroi.XP;
             this.saldoVitorias = heroi.vitoria;
+            this.tipoGuerreiro = heroi.tipoGuerreiro;
             this.classificarHeroi(classificacoes)
             this.classificarVitorias(vitorias)
+            this.classificarAtaque(tiposAtaques)
             console.log("\n")
         }
     }
+
     classificarHeroi(classificacoes) {
         for (const classificacao of classificacoes) {
             let inicio = classificacao.inicio;
@@ -32,6 +35,10 @@ class Heroi {
         console.log(`O Herói de nome ${this.nome} está no nível de ${this.nivel}`);
     }
 
+    /**
+     * Entrega do Desafio 2
+     * @param {} vitorias 
+     */
     classificarVitorias(vitorias) {
         for (const vitoria of vitorias) {
             let inicio = vitoria.inicio
@@ -43,8 +50,23 @@ class Heroi {
         }
         console.log(`Herói tem de saldo de ${this.saldoVitorias} está no nível de ${this.nivelVitoria}`);
     }
-}
 
+    /**
+     *Entrega do Desafio 3 
+     * @param {*} tiposAtaques 
+     */
+    classificarAtaque(tiposAtaques) {
+        for (const tipoAtaque of tiposAtaques) {
+            this.tipo = tipoAtaque.tipo
+            if (this.tipoGuerreiro == this.tipo) {
+                this.ataque = tipoAtaque.ataque;
+                break;
+            }
+        }
+        console.log(`o ${this.tipo} atacou usando ${this.ataque}`)
+        
+    }
+}
 
 // Lista de classificações
 let classificacao = [
@@ -58,16 +80,24 @@ let classificacao = [
     { inicio: 10001, fim: 1000000, nivel: 'Radiante' }
 ];
 
+// Lista de Ataque
+let tiposAtaques = [
+    { tipo: 'Mago', ataque: 'Magia' },
+    { tipo: 'Guerreiro', ataque: 'Espada' },
+    { tipo: 'Moge', ataque: 'Arte Marciais' },
+    { tipo: 'Ninja', ataque: 'Shurikne' }
+];
+
 // Lista de heróis
 let falange = [
-    { nome: 'Heroi 1', XP: 990, vitoria: 9 },
-    { nome: 'Heroi 2', XP: 1990, vitoria: 19 },
-    { nome: 'Heroi 3', XP: 4990, vitoria: 29 },
-    { nome: 'Heroi 4', XP: 6990, vitoria: 39 },
-    { nome: 'Heroi 5', XP: 7990, vitoria: 49 },
-    { nome: 'Heroi 6', XP: 8990, vitoria: 69 },
-    { nome: 'Heroi 7', XP: 9990, vitoria: 99 },
-    { nome: 'Heroi 8', XP: 10990, vitoria: 109 }
+    { nome: 'Heroi 1', XP: 990, vitoria: 9, idade: 20, tipoGuerreiro: 'Mago' },
+    { nome: 'Heroi 2', XP: 1990, vitoria: 19, idade: 20, tipoGuerreiro: 'Guerreiro' },
+    { nome: 'Heroi 3', XP: 4990, vitoria: 29, idade: 20, tipoGuerreiro: 'Moge' },
+    { nome: 'Heroi 4', XP: 6990, vitoria: 39, idade: 20, tipoGuerreiro: 'Ninja' },
+    { nome: 'Heroi 5', XP: 7990, vitoria: 49, idade: 20, tipoGuerreiro: 'Mago' },
+    { nome: 'Heroi 6', XP: 8990, vitoria: 69, idade: 20, tipoGuerreiro: 'Guerreiro' },
+    { nome: 'Heroi 7', XP: 9990, vitoria: 99, idade: 20, tipoGuerreiro: 'Moge' },
+    { nome: 'Heroi 8', XP: 10990, vitoria: 109, idade: 20, tipoGuerreiro: 'Ninja' }
 ];
 
 let vitorias = [
@@ -80,6 +110,5 @@ let vitorias = [
     { inicio: 101, fim: 1000, nivel: 'Imortal' }
 ];
 
-
 let heroi = new Heroi();
-heroi.classificar(falange, classificacao, vitorias);
+heroi.classificar(falange, classificacao, vitorias, tiposAtaques);
