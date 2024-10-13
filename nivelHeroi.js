@@ -4,6 +4,7 @@ class Heroi {
         this.XP = 0;
         this.nivel = "n/a";
         this.saldoVitorias = 0;
+        this.saldoDerrotas = 0;
         this.nivelVitoria = "";
         this.idade = 0;
         this.tipoGuerreiro = "";
@@ -16,10 +17,11 @@ class Heroi {
             this.XP = heroi.XP;
             this.saldoVitorias = heroi.vitoria;
             this.tipoGuerreiro = heroi.tipoGuerreiro;
+            this.saldoDerrotas = heroi.derrota
             this.classificarHeroi(classificacoes)
             this.classificarVitorias(vitorias)
             this.classificarAtaque(tiposAtaques)
-            console.log("\n")
+            console.log("")
         }
     }
 
@@ -44,6 +46,7 @@ class Heroi {
      * @param {} vitorias 
      */
     classificarVitorias(vitorias) {
+        this.saldoVitorias = this.calcularVitoria(this.saldoVitorias, this.saldoDerrotas)
         for (const vitoria of vitorias) {
             let inicio = vitoria.inicio
             let fim = vitoria.fim
@@ -53,6 +56,14 @@ class Heroi {
             }
         }
         console.log(`Herói tem de saldo de ${this.saldoVitorias} está no nível de ${this.nivelVitoria}`);
+    }
+
+    calcularVitoria(vitoria, derrota) {
+       let resultado = vitoria - derrota
+        if (resultado < 0) {
+            return 0;
+        }
+        return resultado;
     }
 
     /**
@@ -68,7 +79,7 @@ class Heroi {
             }
         }
         console.log(`o ${this.tipo} atacou usando ${this.ataque}`)
-        
+
     }
 }
 
@@ -94,16 +105,17 @@ let tiposAtaques = [
 
 // Lista de heróis
 let falange = [
-    { nome: 'Heroi 1', XP: 990, vitoria: 9, idade: 20, tipoGuerreiro: 'Mago' },
-    { nome: 'Heroi 2', XP: 1990, vitoria: 19, idade: 20, tipoGuerreiro: 'Guerreiro' },
-    { nome: 'Heroi 3', XP: 4990, vitoria: 29, idade: 20, tipoGuerreiro: 'Moge' },
-    { nome: 'Heroi 4', XP: 6990, vitoria: 39, idade: 20, tipoGuerreiro: 'Ninja' },
-    { nome: 'Heroi 5', XP: 7990, vitoria: 49, idade: 20, tipoGuerreiro: 'Mago' },
-    { nome: 'Heroi 6', XP: 8990, vitoria: 69, idade: 20, tipoGuerreiro: 'Guerreiro' },
-    { nome: 'Heroi 7', XP: 9990, vitoria: 99, idade: 20, tipoGuerreiro: 'Moge' },
-    { nome: 'Heroi 8', XP: 10990, vitoria: 109, idade: 20, tipoGuerreiro: 'Ninja' }
+    { nome: 'Heroi 1', XP: 990, vitoria: 9, derrota: 10, idade: 20, tipoGuerreiro: 'Mago' },
+    { nome: 'Heroi 2', XP: 1990, vitoria: 19, derrota: 1, idade: 20, tipoGuerreiro: 'Guerreiro' },
+    { nome: 'Heroi 3', XP: 4990, vitoria: 29, derrota: 1, idade: 20, tipoGuerreiro: 'Moge' },
+    { nome: 'Heroi 4', XP: 6990, vitoria: 39, derrota: 1, idade: 20, tipoGuerreiro: 'Ninja' },
+    { nome: 'Heroi 5', XP: 7990, vitoria: 49, derrota: 1, idade: 20, tipoGuerreiro: 'Mago' },
+    { nome: 'Heroi 6', XP: 8990, vitoria: 69, derrota: 1, idade: 20, tipoGuerreiro: 'Guerreiro' },
+    { nome: 'Heroi 7', XP: 9990, vitoria: 99, derrota: 1, idade: 20, tipoGuerreiro: 'Moge' },
+    { nome: 'Heroi 8', XP: 10990, vitoria: 109, derrota: 1, idade: 20, tipoGuerreiro: 'Ninja' }
 ];
 
+// Lista  de tipo de ranque por vitoria
 let vitorias = [
     { inicio: 0, fim: 10, nivel: 'Ferro' },
     { inicio: 11, fim: 20, nivel: 'Bronze' },
