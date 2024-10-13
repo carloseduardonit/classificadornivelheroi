@@ -95,7 +95,7 @@ Dica: Se o expert forneceu um repositório Github, você pode dar um "fork" no r
 - Funções
 - Classes e Objetos
 
-### Objetivo
+### Objetivo  do projeto 3
 
 Crie uma classe generica que represente um herói de uma aventura e que possua as seguintes propriedades:
 
@@ -114,12 +114,12 @@ além disso, deve ter um método chamado atacar que deve atender os seguientes r
 > - senão o tipo for **"monge"** então no ataque exibir **(usou artes marciais)**
 > - senão o tipo for **"ninja"** então no ataque exibir **(usou shurikne)**
 
-## Saída do  Projeto 3
+## Saída do projeto 3
 
 Ao final deve se exibir uma mensagem:
 
 > - "o {tipo} atacou usando {ataque}"
-> **ex: mago atacou usando magia**
-> **ex: guerreiro atacou usando espada**
+>   - **ex: mago atacou usando magia**
+>   - **ex: guerreiro atacou usando espada**
   
 Bons estudos 😉
