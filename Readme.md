@@ -1,5 +1,6 @@
 # Listas de Desafios do curso de Algoritmos
-Em agradecimento a [@dio]((https://github.com/digitalinnovationone)
+> Em agradecimento a [@dio](https://github.com/digitalinnovationone)
+
 ## Entendendo o Desafio projeto 1
 
 Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas 😎
