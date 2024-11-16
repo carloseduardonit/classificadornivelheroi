@@ -1,7 +1,9 @@
 # Listas de Desafios do curso de Algoritmos
+<details>
+<summary>
 
 ## Entendendo o Desafio projeto 1
-
+</summary>
 Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas 😎
 
 Neste repositório, insira todos os links e arquivos necessários para seu projeto, seja um arquivo de banco de dados ou um link para o template no Figma.
@@ -34,10 +36,15 @@ Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de 
 
 Ao final deve se exibir uma mensagem:
 > "O Herói de nome **{nome}** está no nível de **{nivel}**"
+</details>
 
 ----
+<details>
+    <summary>
+## Entendendo o Desafio 2   
 
-## Entendendo o Desafio 2
+</summary>
+
 
 Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas 😎
 
@@ -74,10 +81,13 @@ depois disso retorne o resultado para uma variável, o saldo de Rankeadas deve s
 Ao final deve se exibir uma mensagem:
 > "O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**"
 
+</details>
+
 ----
-
+<details>
+    <summary>
 ## Entendendo o Desafio do projeto 3
-
+    </summary>
 Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas 😎
 
 Neste repositório, insira todos os links e arquivos necessários para seu projeto, seja um arquivo de banco de dados ou um link para o template no Figma.
@@ -121,5 +131,21 @@ Ao final deve se exibir uma mensagem:
 > - "o {tipo} atacou usando {ataque}"
 >   - **ex: mago atacou usando magia**
 >   - **ex: guerreiro atacou usando espada**
-  
+
+</details>
+
 Bons estudos 😉
+
+----
+
+<details>
+
+<summary>
+
+## 📬 Entre em contato pelo :point_left:
+
+</summary>
+
+> [![Telegram](https://img.shields.io/badge/Telegram-000?style=for-the-badge&logo=telegram&logoColor=2CA5E0)](https://t.me/Carlaol) [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send?1=pt_BR&phone=5521985745077) [![Gmail](https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red)](mailto:carlostecnico@mail.com) [![X](https://img.shields.io/badge/X-000?style=for-the-badge&logo=x)](https://x.com/Carlao_Me_Ajuda) [![Instagram](https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/carlao.me.ajuda/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carlos-eduardo-dos-s-figueiredo/)  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/carloseduardonit/) [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/channels/@carloseduardonit/)
+
+</details>
