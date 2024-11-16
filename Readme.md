@@ -1,6 +1,6 @@
-# Listas de Desafios do curso de Algoritmos da GFV
+# Listas de Desafios do curso de  Bootcamp GFT START #6 - Lógica de Programação
 
-> Em agradecimento a [@dio](https://github.com/digitalinnovationone)
+> Em agradecimento a [@DIO](https://github.com/digitalinnovationone) e [@GFT](https://www.gft.com/br/pt)
 
 ----
 
@@ -13,7 +13,7 @@
 <details>
 <summary>
 
-## Entendendo o Desafio projeto 1 :point_left:
+## :writing_hand: Entendendo o Desafio do projeto 1 :point_left:
 
 </summary>
 Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas 😎
@@ -54,7 +54,7 @@ Ao final deve se exibir uma mensagem:
 <details>
 <summary>
 
-## Entendendo o Desafio do projeto 2 :point_left:
+## :writing_hand: Entendendo o Desafio do projeto 2 :point_left:
 
 </summary>
 
@@ -99,7 +99,7 @@ Ao final deve se exibir uma mensagem:
 <details>
     <summary>
 
-## Entendendo o Desafio do projeto 3 :point_left:
+## :writing_hand: Entendendo o Desafio do projeto 3 :point_left:
 
    </summary>
 Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas 😎
@@ -149,6 +149,20 @@ Ao final deve se exibir uma mensagem:
 </details>
 
 Bons estudos 😉
+
+---
+
+<details>
+
+<summary>
+
+## 📝 Linguagens e Ferramentas Utilizada nos Projetos :point_left:
+
+</summary>
+
+> ![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Vscode](https://img.shields.io/badge/Vscode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+
+</details>
 
 ----
 
