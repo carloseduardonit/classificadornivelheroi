@@ -1,6 +1,8 @@
 # Listas de Desafios do curso de Algoritmos
+> Em agradecimento a [@dio](https://github.com/digitalinnovationone)
 <details>
 <summary>
+
 
 ## Entendendo o Desafio projeto 1
 </summary>
