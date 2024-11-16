@@ -1,10 +1,12 @@
-# Listas de Desafios do curso de Algoritmos
+# Listas de Desafios do curso de Algoritmos da GFV
+
 > Em agradecimento a [@dio](https://github.com/digitalinnovationone)
+
 <details>
 <summary>
 
+## Entendendo o Desafio projeto 1 :point_left:
 
-## Entendendo o Desafio projeto 1
 </summary>
 Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas 😎
 
@@ -12,7 +14,7 @@ Neste repositório, insira todos os links e arquivos necessários para seu proje
 
 Dica: Se o expert forneceu um repositório Github, você pode dar um "fork" no repositório dele para organizar suas alterações e evoluções mantendo uma referência direta ao código-fonte original.
 
-## 1️⃣ Desafio Classificador de nível de Herói
+### 1️⃣ Desafio Classificador de nível de Herói
 
 ### O Que deve ser utilizado no projeto 1
 
@@ -21,7 +23,7 @@ Dica: Se o expert forneceu um repositório Github, você pode dar um "fork" no r
 - Laços de repetição
 - Estruturas de decisões
 
-## Objetivo do projeto 1
+### Objetivo do projeto 1
 
 Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
 
@@ -34,7 +36,7 @@ Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de 
 > - Senão XP for entre **9.001 e 10.000** então o nivel  será **Imortal**
 > - Senão XP for maior ou igual a **10.001** então o nivel  será **Radiante**
 
-## Saída do projeto 1
+### Saída do projeto 1
 
 Ao final deve se exibir uma mensagem:
 > "O Herói de nome **{nome}** está no nível de **{nivel}**"
@@ -42,11 +44,11 @@ Ao final deve se exibir uma mensagem:
 
 ----
 <details>
-    <summary>
-## Entendendo o Desafio 2   
+<summary>
+
+## Entendendo o Desafio 2 :point_left:
 
 </summary>
-
 
 Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas 😎
 
@@ -55,9 +57,9 @@ Neste repositório, insira todos os links e arquivos necessários para seu proje
 Dica: Se o expert forneceu um repositório Github, você pode dar um "fork" no repositório dele para organizar suas alterações e evoluções mantendo uma referência direta ao código-fonte original.
 Instruções para entrega
 
-## 2️⃣ Calculadora de partidas Rankeadas
+### 2️⃣ Calculadora de partidas Rankeadas
 
-## O Que deve ser utilizado no projeto 2
+### O Que deve ser utilizado no projeto 2
 
 - Variáveis
 - Operadores
@@ -65,7 +67,7 @@ Instruções para entrega
 - Estruturas de decisões
 - Funções
 
-## Objetivo do projeto 2
+### Objetivo do projeto 2
 
 Crie uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador,
 depois disso retorne o resultado para uma variável, o saldo de Rankeadas deve ser feito através do calculo (vitórias - derrotas)
@@ -78,7 +80,7 @@ depois disso retorne o resultado para uma variável, o saldo de Rankeadas deve s
 > - Senão vitórias for entre **91 e 100** então o seu nivel será **Lendário**
 > - Senão vitórias for maior ou igual a **101** então o seu nivel será **Imortal**
 
-## Saída do projeto 2
+### Saída do projeto 2
 
 Ao final deve se exibir uma mensagem:
 > "O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**"
@@ -88,15 +90,17 @@ Ao final deve se exibir uma mensagem:
 ----
 <details>
     <summary>
-## Entendendo o Desafio do projeto 3
-    </summary>
+
+## Entendendo o Desafio do projeto 3 :point_left:
+
+   </summary>
 Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas 😎
 
 Neste repositório, insira todos os links e arquivos necessários para seu projeto, seja um arquivo de banco de dados ou um link para o template no Figma.
 
 Dica: Se o expert forneceu um repositório Github, você pode dar um "fork" no repositório dele para organizar suas alterações e evoluções mantendo uma referência direta ao código-fonte original.
 
-## 3️⃣ Escrevendo as classes de um Jogo
+### 3️⃣ Escrevendo as classes de um Jogo
 
 ### O Que deve ser utilizado no projeto 3
 
@@ -126,7 +130,7 @@ além disso, deve ter um método chamado atacar que deve atender os seguientes r
 > - senão o tipo for **"monge"** então no ataque exibir **(usou artes marciais)**
 > - senão o tipo for **"ninja"** então no ataque exibir **(usou shurikne)**
 
-## Saída do projeto 3
+### Saída do projeto 3
 
 Ao final deve se exibir uma mensagem:
 
