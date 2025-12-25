@@ -1,4 +1,4 @@
-# Listas de Desafios do curso de  Bootcamp GFT START #6 - Lógica de Programação
+# Listas de Desafios do curso de  Bootcamp GFT START #6 - Lógica de Programação ✅🚀
 
 > Em agradecimento a [@DIO](https://github.com/digitalinnovationone) e [@GFT](https://www.gft.com/br/pt)
 
@@ -13,7 +13,7 @@
 <details>
 <summary>
 
-## :writing_hand: Entendendo o Desafio do projeto 1 :point_left:
+## :writing_hand: Entendendo o Desafio do projeto 1 :point_left: 🎯
 
 </summary>
 Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas 😎
@@ -54,7 +54,7 @@ Ao final deve se exibir uma mensagem:
 <details>
 <summary>
 
-## :writing_hand: Entendendo o Desafio do projeto 2 :point_left:
+## :writing_hand: Entendendo o Desafio do projeto 2 :point_left: 🎯
 
 </summary>
 
@@ -99,7 +99,7 @@ Ao final deve se exibir uma mensagem:
 <details>
     <summary>
 
-## :writing_hand: Entendendo o Desafio do projeto 3 :point_left:
+## :writing_hand: Entendendo o Desafio do projeto 3 :point_left: 🎯
 
    </summary>
 Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas 😎
